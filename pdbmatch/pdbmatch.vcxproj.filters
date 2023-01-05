@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="msf">
+      <UniqueIdentifier>{36a6d48b-fab9-4df2-a885-d928d209f549}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pdb">
+      <UniqueIdentifier>{eec65e35-1124-46a1-9a2b-d5905bb7bcdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{2375e98c-cc1c-480b-81d9-479d18763518}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="msf\file_stream.cpp">
+      <Filter>msf</Filter>
+    </ClCompile>
+    <ClCompile Include="msf\memory_stream.cpp">
+      <Filter>msf</Filter>
+    </ClCompile>
+    <ClCompile Include="msf\msf.cpp">
+      <Filter>msf</Filter>
+    </ClCompile>
+    <ClCompile Include="msf\readonly_stream.cpp">
+      <Filter>msf</Filter>
+    </ClCompile>
+    <ClCompile Include="pdb\pdb.cpp">
+      <Filter>pdb</Filter>
+    </ClCompile>
+    <ClCompile Include="util\file.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\md5.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\memmap.cpp">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="pedump.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pdbdump.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="msf\file_stream.h">
+      <Filter>msf</Filter>
+    </ClInclude>
+    <ClInclude Include="msf\format.h">
+      <Filter>msf</Filter>
+    </ClInclude>
+    <ClInclude Include="msf\memory_stream.h">
+      <Filter>msf</Filter>
+    </ClInclude>
+    <ClInclude Include="msf\msf.h">
+      <Filter>msf</Filter>
+    </ClInclude>
+    <ClInclude Include="msf\readonly_stream.h">
+      <Filter>msf</Filter>
+    </ClInclude>
+    <ClInclude Include="msf\stream.h">
+      <Filter>msf</Filter>
+    </ClInclude>
+    <ClInclude Include="pdb\cvinfo.h">
+      <Filter>pdb</Filter>
+    </ClInclude>
+    <ClInclude Include="pdb\format.h">
+      <Filter>pdb</Filter>
+    </ClInclude>
+    <ClInclude Include="pdb\pdb.h">
+      <Filter>pdb</Filter>
+    </ClInclude>
+    <ClInclude Include="util\file.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\md5.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\memmap.h">
+      <Filter>util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
